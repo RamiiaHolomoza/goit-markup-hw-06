@@ -20,16 +20,14 @@
     />
   </head>
   <body>
-    <!-- <header class="header">
-      навігацію;-->
-    <!-- 
+    <header class="header">
+      <!--навігацію;-->
       <div class="container container-header">
         <nav class="nav">
           <a class="logo link" href="./index.html"
             >Web<span class="logo-color">Studio</span></a
           >
-          меню -->
-    <!-- 
+          <!--меню -->
           <ul class="nav-list list">
             <li class="nav-item">
               <a class="nav-link link active" href="./index.html">Studio</a>
@@ -41,8 +39,7 @@
               <a class="nav-link link" href="">Contacts</a>
             </li>
           </ul>
-           "#Studio" / #Portfolio / #Contacts-->
-    <!--
+          <!--"#Studio" / #Portfolio / #Contacts-->
         </nav>
         <address class="header-address">
           <ul class="list address-list">
@@ -66,25 +63,108 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn">
+          <svg class="menu-open" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+
+      <div class="mob-menu">
+        <div class="mob-menu-top">
+          <button type="button" class="menu-close-btn">
+            <svg class="menu-close-icone" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mob-nav">
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mob-menu-bottom">
+          <address class="mob-header-address">
+            <ul class="list mob-address-list">
+              <li class="mob-address-item">
+                <a
+                  class="link mob-address-link"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a
+                  class="link mob-address-link"
+                  href="tel:+110001111111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <!--  -->
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="" class="icon-link">
+                <svg class="icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link">
+                <svg class="icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link">
+                <svg class="icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link">
+                <svg class="icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <!--hero image-->
-      <!-- <section class="section-hero section">
+      <section class="section-hero section">
         <div class="container hero-list">
           <h1 class="hero-main-text">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn">Order Service</button>
         </div>
-      </section> -->
+      </section>
 
       <!--Section 1-->
-      <!-- <section class="section-about section">
+      <section class="section-about section">
         <div class="container">
           <h2 class="visually-hidden">About us</h2>
           <ul class="list-about">
-            <li class="list-li-about"> -->
-      <!--Feature 1-->
-      <!-- <div class="icon-about">
+            <li class="list-li-about">
+              <!--Feature 1-->
+              <div class="icon-about">
                 <svg class="icon-icon-about" width="64" height="64">
                   <use href="./images/icons.svg#icon-antnena"></use>
                 </svg>
@@ -95,9 +175,9 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="list-li-about"> -->
-      <!--Feature 2-->
-      <!-- <div class="icon-about">
+            <li class="list-li-about">
+              <!--Feature 2-->
+              <div class="icon-about">
                 <svg class="icon-icon-about" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
@@ -108,9 +188,9 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="list-li-about"> -->
-      <!--Feature 3-->
-      <!-- <div class="icon-about">
+            <li class="list-li-about">
+              <!--Feature 3-->
+              <div class="icon-about">
                 <svg class="icon-icon-about" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
@@ -121,9 +201,9 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="list-li-about"> -->
-      <!--Feature 4-->
-      <!-- <div class="icon-about">
+            <li class="list-li-about">
+              <!--Feature 4-->
+              <div class="icon-about">
                 <svg class="icon-icon-about" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
@@ -136,17 +216,17 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Section 2-->
-      <!-- <section class="section-team section">
+      <section class="section-team section">
         <div class="container">
           <h2 class="section-team-main">Our Team</h2>
           <ul class="list-teamcard">
-            <li class="list-li-teamcard"> -->
-      <!--teamcard1-->
+            <li class="list-li-teamcard">
+              <!--teamcard1-->
 
-      <!-- <img
+              <img
                 src="./images/teamcard1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -188,10 +268,10 @@
                 </ul>
               </div>
             </li>
-            <li class="list-li-teamcard"> -->
-      <!--teamcard2-->
+            <li class="list-li-teamcard">
+              <!--teamcard2-->
 
-      <!-- <img
+              <img
                 src="./images/teamcard2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -233,10 +313,10 @@
                 </ul>
               </div>
             </li>
-            <li class="list-li-teamcard"> -->
-      <!--teamcard3-->
+            <li class="list-li-teamcard">
+              <!--teamcard3-->
 
-      <!-- <img
+              <img
                 src="./images/teamcard3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -278,10 +358,10 @@
                 </ul>
               </div>
             </li>
-            <li class="list-li-teamcard"> -->
-      <!--teamcard4-->
+            <li class="list-li-teamcard">
+              <!--teamcard4-->
 
-      <!-- <img
+              <img
                 src="./images/teamcard4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -325,9 +405,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--Section 3-->
-      <!-- <section class="section-portfolio section">
+      <section class="section-portfolio section">
         <div class="container">
           <h2 class="section-portfolio-main">Our Portfolio</h2>
           <ul class="list-projectcard">
@@ -454,7 +534,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <footer class="footer">
@@ -502,7 +582,7 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <p class="footer-text">Subscribe</p>
+          <p class="footer-text-subscribe">Subscribe</p>
           <form class="footer-form">
             <label for="user-email-subscribe" class="email-form">
               <input
@@ -523,7 +603,7 @@
       </div>
     </footer>
 
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="close-modal-btn">
           <svg class="modal-close-icone" width="8" height="8">
@@ -598,14 +678,16 @@
               id="user-privacy"
               class="checkbox-input visually-hidden"
             />
-            <label for="user-privacy" class="checkbox-label"
-              ><span class="checkbox-span"
-                ><svg class="checkbox-accept" width="10" height="8">
-                  <use href="./images/icons.svg#icon-accept"></use></svg
-              ></span>
-              I accept the terms and conditions of the
-              <a href="" class="checkbox-link">Privacy Policy</a></label
-            >
+            <div>
+              <label for="user-privacy" class="checkbox-label"
+                ><span class="checkbox-span"
+                  ><svg class="checkbox-accept" width="10" height="8">
+                    <use href="./images/icons.svg#icon-accept"></use></svg
+                ></span>
+                I accept the terms and conditions of the
+                <a href="" class="checkbox-link">Privacy Policy</a></label
+              >
+            </div>
           </div>
 
           <button type="submit" class="modal-send-btn">
@@ -613,6 +695,6 @@
           </button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
