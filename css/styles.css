@@ -337,20 +337,20 @@
     .section-hero {
         background-color: var(--navy-blue);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-desk-1x.jpg);
+        url(../images/people-office-mob-1x.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        max-width: 1440px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+        max-width: 320px;
         margin: 0 auto;
     }
 
     @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .section-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-desk-2x.jpg);
+                url(../images/people-office-mob-2x.jpg);
 }
     .hero-list {
         display: flex;
@@ -360,16 +360,15 @@
     }
 
     .hero-main-text {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 107%;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--white);
-        margin-bottom: 48px;
-        max-width: 496px
+        margin-bottom: 72px;
+        max-width: 216px
     }
-
 
     .hero-btn {
         border: none;
@@ -868,7 +867,7 @@ background: var(--white);
         min-height: 584px;
         border-radius: 4px;
         padding: 72px 16px 24px;
-        position: absolute
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1137,7 +1136,30 @@ border: none;
     .menu-open-btn{
         display: none;
     }
-
+        /* section hero */
+        .section-hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tab-1x.jpg);
+            padding-top: 112px;
+            padding-bottom: 112px;
+            max-width: 768px;
+        }
+    
+        @media screen and (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+        .section-hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tab-2x.jpg);
+        }
+    .hero-main-text {
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        margin-bottom: 48px;
+        max-width: 496px
+    }
+    }
     /* section 1 */
     .list-about {
         gap: 72px 24px;
@@ -1220,6 +1242,23 @@ border: none;
         .address-link{
             font-size: 16px;
         }
+        /* section hero */
+        .section-hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-desk-1x.jpg);
+            padding-top: 188px;
+            padding-bottom: 188px;
+            max-width: 1440px;
+        }
+    
+        @media screen and (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .section-hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office-desk-2x.jpg);
+            }   
+        } 
         /* section 1 */
         .section-about{
             padding-top: 120px;
