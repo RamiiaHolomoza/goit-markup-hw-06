@@ -198,10 +198,7 @@
         color: var(--ocean);
         }
 
-    .active{
-        color: var(--ocean);
-        position: relative;
-    }
+    
     /* .active:hover{
         position: ;
         margin-top: 20px;
@@ -210,17 +207,7 @@
         height: 4px;
         background: var(--ocean);
     } */
-    .active::after {
-        content:"";
-        width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        background-color: #404bbf;
-        border-radius: 2px;
-        
-    }
+    
     .menu-open-btn{
         display: flex;
         width: 24px;
@@ -343,6 +330,10 @@
 .icon-link-mob:hover,
 .icon-link-mob:focus {
     background-color: var(--ocean);
+}
+.active {
+    color: var(--ocean);
+    position: relative;
 }
 
     main {
@@ -1144,6 +1135,18 @@ border: none;
     .address-link{
         font-size: 12px;
     }
+.active::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
+}
+
     .menu-open-btn{
         display: none;
     }
